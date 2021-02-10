@@ -5,7 +5,7 @@ See the original at https://eater.net/8bit and his video playlist :
 
 https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=1 
 
-Pictures of my simulations will be included and files which can be downloaded and can be run on your own Simulide software if you so please.
+Pictures of my simulations are included and also .simu files which can be downloaded and can be run on your own Simulide software if you so please.
 My software version is Simulide 0.4.14-SR4 Windows64. The Simulide software can be downloaded here:
 https://www.simulide.com/p/downloads.html
 Halfway through I noticed there is no Z80 in this project.
