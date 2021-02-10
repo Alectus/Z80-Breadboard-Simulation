@@ -1,0 +1,6 @@
+This module has not been programmed or tested.
+Later there will be a program from Ben Eaters 
+original project be uploaded to the Eeproms with the Uno programmer :
+https://github.com/beneater/eeprom-programmer
+but it will not fit with my set up because my Ram-module differs from his
+and so my steps to move data are different.
