@@ -1,7 +1,7 @@
 # Z80-Breadboard-Simulation
 This is an attempt to simulate Ben Eaters 8-bit breadboard project on Simulide and is still under construction.
 
-See the original at https://eater.net/8bit and his video playlist
+See the original at https://eater.net/8bit and his video playlist :
 
 https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=1 
 
