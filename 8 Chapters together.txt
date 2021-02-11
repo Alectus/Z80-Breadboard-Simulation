@@ -1,0 +1,74 @@
+
+INDICATION TO PROGRAM EXAMPLE FOLLOWING BEN EATERS VIDEO 36
+
+- Because of a different Ram I used, my steps to move data around are different than Ben's 
+as shown in his video 36.
+https://www.youtube.com/watch?v=dXdoim96v5A&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=36
+
+I am not a programmer so I will not finish this project.
+Below are my steps to get the same result as Ben with this Simulide set-up and shown in this picture :
+https://github.com/Alectus/Z80-Breadboard-Simulation/blob/main/8%20Chapters%20together.PNG
+https://raw.githubusercontent.com/Alectus/Z80-Breadboard-Simulation/main/8%20Chapters%20together.simu
+
+START CONDITIONS :
+- INPUT RAM DATA AS SHOWN IN VIDEO 36 or use Notepad or use the Nano eeprom programmer
+- CLK ON MANUAL - PROGRAM COUNTER 0000 - All buttons H
+
+STEP 0 : RAM ADDRESS 0000 CONTENTS TO INSTRUCTION REGISTER
+- RAM OUT L - IR LATCH IN L
+- CLK
+- RAM OUT H 
+- CLK
+- LATCH IR IN - H
+
+STEP 1 : INSTRUCTION REGISTER CONTENTS TO RAM ADRESSING
+- IR OUT L - MI LATCH L
+- CLK
+- IR OUT H - MI LATCH H
+
+STEP 2 : RAM ADRESS CONTENTS TO A REGISTER
+- RAM OUT L - A LATCH IN L
+- CLK
+- RAM OUT H
+- CLK
+- A LATCH IN H
+
+STEP 3 : INCREASE PROGRAM COUNTER TO 0001 AND LATCH IT INTO RAM ADDRESSING
+- PC ENABLE L - OE PC L - MI LATCH IN L
+- CLK
+- PC ENABLE H
+- CLK
+- OE PC H - MI LATCH H
+
+STEP 4 : RAM ADDRESS 0001 CONTENTS TO INSTRUCTION REGISTER
+- RAM OUT L - IR IN L
+- CLK
+- RAM OUT H
+- CLK
+- IR LATCH IN H
+
+STEP 5 : INSTRUCTION REGISTER CONTENTS TO RAM ADRESSING
+- IR OUT L - MI LATCH L
+- CLK
+- IR OUT H - MI LATCH H
+
+STEP 6 : RAM ADRESS CONTENTS TO B REGISTER
+- RAM OUT L - B LATCH IN L
+- CLK
+- RAM OUT H
+- CLK
+- B LATCH IN H
+
+STEP 7 : ALU SUM CONTENTS TO A REGISTER
+- ALU OUT L - A LATCH IN L
+- CLK
+- ALU OUT H - A LATCH IN H
+
+DISPLAY SHOWS 42.
+
+
+
+
+
+
+
