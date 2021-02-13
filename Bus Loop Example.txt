@@ -1,0 +1,58 @@
+Startconditions : Clock on manual, Clk Halt Off (L), all other buttons On (H).
+
+1) Manual write 57 into Ram address 11
+- Set switch to Prog.
+- Set the four dipswitches to 1011
+- Set the eight dipswitches to 0011 1001
+- Click button Write Man Prog to L and H again
+
+2) Manual write 43 into Ram address 7
+- Set the four dipswitches to 0111
+- Set the eight dipswitches to 0010 1011
+- Click button Write Man Prog to L and H again
+
+Close both dipswitches and set switch to Run
+
+3) Select Ram address 11
+- Set PC Count to L
+- Pulse CLK until 1011 en set PC Count to H
+- PC OUT L and MI Latch In L
+- Pulse CLK 2x
+- PC OUT H and MI Latch In H
+
+4) Write Ram adress 11 into B register.
+- RAM OUT L and LATCH B IN L
+- Pulse CLK 2x
+- RAM OUT H and LATCH B IN H
+
+5) Select Ram address 7
+- CLR PC L and H
+- Set PC Count to L
+- Pulse CLK until 0111 en set PC Count to H
+- PC OUT L and MI Latch In L
+- Pulse CLK 2x
+- PC OUT H and MI Latch In H
+
+6) Write Ram address 7 into register A
+- RAM OUT L and LATCH A IN L
+- Pulse CLK 2x
+- RAM OUT H and LATCH A IN H
+
+7) Select Ram address 4
+- Set PC Count to L
+- Pulse CLK until 0100 en set PC Count to H
+- PC OUT L and MI Latch In L
+- Pulse CLK 2x
+- PC OUT H and MI Latch In H
+
+8) Write Alu into Ram adress 4
+- ALU OUT L and WRITE RAM IN L
+- Pulse CLK 2x
+- ALU OUT H and WRITE RAM IN H
+
+9) Write Ram address 4 into Instruction Register
+- RAM OUT L and LATCH IR IN L
+- Pulse CLK 2x
+- RAM OUT H and LATCH IR IN H
+
+10) Right click on Ram and Save Data, open Notepad and check the results.
