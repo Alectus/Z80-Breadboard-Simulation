@@ -15,6 +15,6 @@ The easiest way to make sense of my messy repository is to sort it by date and r
 There is also a Tweakers topic available in  Dutch : https://gathering.tweakers.net/forum/list_messages/2043958/0 
 And I want to thank Arcachofo for his great help and support where you can read about here and it might also be usefull to read it in case you have not yet 'upgraded' the 74HC173_LS.package in your Simulide software: https://simulide.forumotion.com/t99-ram-and-74hc670-and-74xx170#507
 The final file in this repository is Bus loop completed (13-02-2021).
-Part II an be found here : https://github.com/Alectus/Breadboard-8-bit-simulation.
-github.com/Alectus/Breadboard-8-bit-simulation.
+Part II an be found here : 
+https://github.com/Alectus/Breadboard-8-bit-simulation.
 
